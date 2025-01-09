@@ -5,23 +5,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get product ID to delete
     $product_id = $_POST['product_id'];
 
-    // Step 1: Delete related records in the Customer table
-    $sql_delete_customer = "DELETE FROM Customer WHERE C_O_ID IN (SELECT Order_id FROM Orders WHERE O_P_ID = '$product_id')";
-    if ($conn->query($sql_delete_customer) === TRUE) {
-        echo "Related customer records deleted successfully!<br>";
-    } else {
-        echo "Error deleting customer records: " . $conn->error . "<br>";
-    }
-
-    // Step 2: Delete related records in the Orders table
-    $sql_delete_orders = "DELETE FROM Orders WHERE O_P_ID = '$product_id'";
-    if ($conn->query($sql_delete_orders) === TRUE) {
-        echo "Related order records deleted successfully!<br>";
-    } else {
-        echo "Error deleting order records: " . $conn->error . "<br>";
-    }
-
-    // Step 3: Delete the product from the Products table
     $sql_delete_product = "DELETE FROM Products WHERE Product_ID = '$product_id'";
     if ($conn->query($sql_delete_product) === TRUE) {
         echo "Product deleted successfully!<br>";
