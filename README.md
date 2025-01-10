@@ -13,6 +13,9 @@ more advanced functions like returns and downloading excel files to show total s
 below you will find the database's ERD, Relational Table and Mapping.
 
 
+
+![ORM](https://github.com/user-attachments/assets/72813eb8-877d-4c14-a9c6-b7a9a8483cf6)
+
 ![ERD](https://github.com/user-attachments/assets/4d6d907f-aa67-4e32-a78f-0407f64b87ee)
 
 ![Relational Table](https://github.com/user-attachments/assets/1107109a-d18c-48d4-bf3f-b5e1bc9f290f)
