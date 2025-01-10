@@ -1,6 +1,6 @@
 # Store-Database-System
 
-Important Notice: this project requires PHPSpreadsheet Repo by Compresor
+Important Notice: this project requires PHPSpreadsheet Repo by Compresor to use the download excel button in the Orders Page.
 
 this is a simple website that allows you to add/edit/and sometime's delete the following attributes:
 employee's
