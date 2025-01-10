@@ -10,8 +10,10 @@ it also allows you to access the products table and choose from the available it
 once all the items are selected the user can enter the cart and shown will be the products selected with all its information and the grand total.
 checkout can then be clicked to complete the order with all the info given in the previous page and is then placed in the orders tab showing all the order information.
 more advanced functions like returns and downloading excel files to show total sales and returns.
+below you will find the database's ERD, Relational Table and Mapping.
 
 
+![ERD](https://github.com/user-attachments/assets/4d6d907f-aa67-4e32-a78f-0407f64b87ee)
 
 ![Relational Table](https://github.com/user-attachments/assets/1107109a-d18c-48d4-bf3f-b5e1bc9f290f)
 
