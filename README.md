@@ -12,6 +12,11 @@ checkout can then be clicked to complete the order with all the info given in th
 more advanced functions like returns and downloading excel files to show total sales and returns.
 
 
+
+![Relational Table](https://github.com/user-attachments/assets/1107109a-d18c-48d4-bf3f-b5e1bc9f290f)
+
+
+
 this project uses PHP and MYSQL with the the XAMPP application to connect the PHP files to the local host.
 there are a total of 9 tables created using MYSQL WORKBENCH.
 there are a total of 27 PHP files that all connect to Index.php.
